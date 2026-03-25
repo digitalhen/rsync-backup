@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 
 # Path on local system that is the source (here, a mounted SMB file system)
 backup="/media/Software"
@@ -7,5 +8,5 @@ backup="/media/Software"
 target="/storage/Backup/"
 
 # Executes the master script
-me=$(dirname $0)
-$me/SyncBackup.sh $backup $target
+me="$(dirname "$0")"
+"$me/SyncBackup.sh" "$backup" "$target"

@@ -1,0 +1,7 @@
+$RECYCLE.BIN
+DoNotBackup
+System Volume Information
+BBC iPlayer
+Final Cut Events
+Final Cut Projects
+iMovie Events.localized
